@@ -3,7 +3,7 @@
 /**
  * main -print string damit
  * Return: 0 if code kipchoges
- * */
+ */
 
 int main(void)
 {
