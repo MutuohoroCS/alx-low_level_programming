@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main -print string damit
  * Return: 0 if code kipchoges
