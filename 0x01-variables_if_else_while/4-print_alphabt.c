@@ -11,7 +11,7 @@ int main(void)
 
 	lettr = 'a' - 1;
 
-	while (lettr <= 'z')
+	while (lettr < 'z')
 	{
 		lettr++;
 		if (lettr == 'q' || lettr == 'e')
