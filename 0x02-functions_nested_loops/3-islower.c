@@ -1,12 +1,17 @@
 #include "main.h"
 
-int _lower(int c)
+/**
+ * _islower - checks whether c is a lowercase letter
+ * Return: 0 false
+  */
+
+int _islower(int c)
 {
-	if (_islower(c))
+	if (c <= 97)
 	{
-		return 1;
-	}else
+		return (1);
+	} else
 	{
-		return 0;
+		return (0);
 	}
 }
