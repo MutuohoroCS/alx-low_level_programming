@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include "main.h"
 /**
  * main -print putchar or something idk
  * Return: 0(success)
