@@ -2,6 +2,10 @@
 
 int main(void)
 {
+	return (0);
+}
+void print_alphabet(void)
+{
 	char lettr;
 
 	lettr  = 'a';
@@ -11,6 +15,5 @@ int main(void)
 		lettr++;
 	}
 	_putchar('\n');
-
-	return (0);
+	return;
 }
