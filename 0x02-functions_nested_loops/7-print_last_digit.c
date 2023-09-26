@@ -21,5 +21,7 @@ int print_last_digit(int nmbr)
 		lstdgt = -lstdgt;
 	}
 
+	_putchar(a+'0');
+
 	return (lstdgt);
 }
