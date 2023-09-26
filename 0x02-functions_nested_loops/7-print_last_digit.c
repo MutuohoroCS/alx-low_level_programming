@@ -10,6 +10,16 @@ int print_last_digit(int nmbr)
 {
 	int lstdgt;
 
+	if (nmbr < 0)
+	{
+		nmbr = -nmbr;
+	}
+
 	lstdgt = nmbr % 10;
+	if (lstdgt < 0)
+	{
+		lstdgt = -lstdgt;
+	}
+
 	return (lstdgt);
 }
